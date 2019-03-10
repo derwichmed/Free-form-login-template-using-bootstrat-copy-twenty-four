@@ -1,0 +1,110 @@
+body{
+    background-color: #0388b2;
+}
+.form_login_subscription{
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.form_login_subscription .form_desc > div{
+    height: 100%;
+    position: relative
+}
+.form_login_subscription .form_desc .social_media{
+     position: absolute;
+     left: 0;
+     height: 150px;  
+     padding-top: 50px
+}
+.form_login_subscription .form_desc .form_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 150px;
+    height: 100%;
+    margin: 0px;                      
+}
+.form_login_subscription .form_desc .footer{
+    position: absolute;
+    left: 0;
+    bottom:  0;
+    margin: 0px;                         
+}
+.form_login_subscription .form_desc .social_media img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 25px;
+    cursor: pointer
+}
+.form_login_subscription .form_desc .form_btn button{
+    width: 150px;
+    display: block;
+    height: 45px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer
+}
+.form_login_subscription .form_desc .form_btn .active{
+    background-color: #1e363e;
+}
+.form_login_subscription .form_desc .form_btn .disable{
+    background-color: transparent;
+}
+.form_login_subscription .form_content{
+    background-color: #1e363e;
+    padding-bottom: 50px
+}
+.form_login_subscription .form_content .form_item{
+    text-align: center;
+}
+.form_login_subscription .form_content .form_item header img{
+    width: 50px;
+    height: 50px
+}
+.form_login_subscription .form_content .form_item header{
+    color: white;
+    font-weight: bold;
+    padding-top: 50px
+}
+.form_login_subscription .form_content .form_item header p{
+    font-weight: normal;
+    margin-top: 50px
+}
+.form_login_subscription .form_content form{
+    margin-top: 50px
+}
+.form_login_subscription .form_content form .input-group{
+    background-color: #2f545f;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto
+}
+.form_login_subscription .form_content form .input-group-text, 
+.form_login_subscription .form_content form .form-control
+{
+    background-color: transparent;
+    border: none
+}
+.form_login_subscription .form_content form .input-group-text img{
+    width: 20px;
+    height: 20px
+}
+@media(max-width: 800px){
+    .form_login_subscription .form_desc{
+        height: 500px;
+    }
+    .form_login_subscription .form_desc .form_btn{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 470px;
+        width: 100%;
+        height: 20px;
+        margin: 0px;   
+    }
+    .form_login_subscription .form_desc .form_btn button{
+        display: inline-block
+    }
+}
+
